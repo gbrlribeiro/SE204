@@ -1,0 +1,97 @@
+# Info: [9569]: Logging session transcript to file /cal/homes/gfreitas/SE204/Repository/Nouveau dossier/controleur_memoire/precision.log
+//  Precision RTL Synthesis 64-bit 2017.1.0.15 (Production Release) Fri Sep 15 05:07:37 PDT 2017
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2017, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Linux gfreitas@tp-3a107-08 #1 SMP Debian 4.19.67-2+deb10u2 (2019-11-11) 4.19.0-6-amd64 x86_64
+//  
+//  Start time Thu Dec 12 14:50:59 2019
+# -------------------------------------------------
+# Info: [9569]: Logging session transcript to file /cal/homes/gfreitas/SE204/Repository/Nouveau dossier/controleur_memoire/precision.log
+# COMMAND: open_project "/cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1.psp"
+# Info: [9577]: Input directory: /cal/homes/gfreitas/SE204/Repository/Nouveau dossier
+# Info: [9578]: The Results Directory has been set to: /cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1/
+# Info: [9568]: Appending project transcript to file /cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1/precision.log
+# Info: [9568]: Appending suppressed messages transcript to file /cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1/precision.log.suppressed
+# Info: [9552]: Activated implementation project_1_impl_1 in project /cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1.psp.
+open_project "/cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1.psp"
+# COMMAND: add_input_file {controleur_memoire/wb_bram/wb_bram.sv}
+add_input_file {controleur_memoire/wb_bram/wb_bram.sv}
+# COMMAND: add_input_file {wshb_if/wshb_if.sv}
+add_input_file {wshb_if/wshb_if.sv}
+# COMMAND: setup_design -manufacturer Altera -family "Cyclone II" -part EP2C35F672C -speed 6
+# Info: [15300]: Setting up the design to use synthesis library "cycloneii.syn"
+# Info: [579]: The global max fanout is currently set to 1000 for Altera - Cyclone II.
+# Info: [15326]: Setting Part to: "EP2C35F672C".
+# Info: [15327]: Setting Process to: "6".
+setup_design -manufacturer Altera -family "Cyclone II" -part EP2C35F672C -speed 6
+# COMMAND: setup_design -frequency 400 -input_delay 0 -output_delay 0 -max_fanout=1000
+# Info: [579]: The global max fanout is currently set to 1000 for Altera - Cyclone II.
+setup_design -frequency 400 -input_delay 0 -output_delay 0 -max_fanout=1000
+# COMMAND: setup_design -addio=false
+setup_design -addio=false
+# COMMAND: compile
+# Info: [3022]: Reading file: /comelec/softs/opt/mentor/precision/current/Mgc_home/pkgs/psr/techlibs/cycloneii.syn.
+# Info: [638]: Loading library initialization file /comelec/softs/opt/mentor/precision/current/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [623]: Vendor library directory /comelec/softs/opt/altera/altera13.0sp1/quartus/eda/synthesis was not found. Vendor library directory /comelec/softs/opt/altera/altera13.0sp1/quartus/eda/sim_lib contains simulation RTL constructs that cannot be processed by Precision. Reading the pre-compiled version
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2017a.11
+# Info: [42003]: Starting analysis of files in library "work"
+# Info: [41002]: Analyzing input file "/cal/homes/gfreitas/SE204/Repository/Nouveau dossier/controleur_memoire/wb_bram/wb_bram.sv" ...
+# Info: [41002]: Analyzing input file "/cal/homes/gfreitas/SE204/Repository/Nouveau dossier/wshb_if/wshb_if.sv" ...
+# Warning: [42038]: "/cal/homes/gfreitas/SE204/Repository/Nouveau dossier/controleur_memoire/wb_bram/wb_bram.sv", line 8: Top level module ( wb_bram ) contains interface port ( wb_s ).
+# Info: [663]: Top module of the design is set to: wb_bram.
+# Info: [661]: Current working directory: /cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2017a.11
+# Info: [40000]: Last compiled on Sep 15 2017 12:39:55
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2017a.11
+# Info: [40000]: Last compiled on Sep 15 2017 06:47:50
+# Info: [44512]: Initializing...
+# Info: [45251]: Built-in hardware memory core inferred for variable ': "wb_bram.mem0 depth = 2048, width = 32"'.
+# Info: [44522]: Root Module wb_bram{port =>wshb_if.slave #(param DATA_BYTES=>4) }: Pre-processing...
+# Info: [44523]: Root Module wb_bram{port =>wshb_if.slave #(param DATA_BYTES=>4) }: Compiling...
+# Info: [45309]: "/cal/homes/gfreitas/SE204/Repository/Nouveau dossier/controleur_memoire/wb_bram/wb_bram.sv", line 21: Optimizing state bit(s) rtlc_wb_s.dat_sm[31:16] to constant 0
+# Info: [44842]: Compilation successfully completed.
+# Info: [44856]: Total lines of RTL compiled: 49.
+# Info: [44835]: Total CPU time for compilation: 0.0 secs.
+# Info: [44513]: Overall running time for compilation: 1.0 secs.
+# Info: [661]: Current working directory: /cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1.
+# Info: [15332]: Doing rtl optimizations.
+# Info: [664]: Finished compiling design.
+compile
+# COMMAND: synthesize
+# Info: [661]: Current working directory: /cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1.
+# Info: [20013]: Precision will use 5 processor(s).
+# Info: [15002]: Optimizing design view:.work.wb_bram.INTERFACE
+# Info: [3027]: Writing file: /cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1/wb_bram.vqm.
+# Info: [3027]: Writing file: /cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1/wb_bram.xrf.
+# Info: -- Writing file /cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1/wb_bram.tcl
+# Info: exq_pr_compile_project gen_vcf wb_bram 1
+# Info: [12045]: Starting timing reports generation...
+# Info: [12046]: Timing reports generation done.
+# Info: [12048]: POST-SYNTHESIS TIMING REPORTS ARE ESTIMATES AND SHOULD NOT BE RELIED ON TO MAKE QoR DECISIONS. For accurate timing information, please run place-and-route (P&R) and review P&R generated timing reports.
+# Info: [664]: Finished synthesizing design.
+# Info: [11019]: Total CPU time for synthesis: 0.7 s secs.
+# Info: [11020]: Overall running time for synthesis: 1.1 s secs.
+synthesize
+# COMMAND: report_area "/cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1/wb_bram_area.rep" -cell_usage
+report_area "/cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1/wb_bram_area.rep" -cell_usage
+# COMMAND: report_timing "/cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1/wb_bram_timing.rep" -clock_frequency
+report_timing "/cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1/wb_bram_timing.rep" -clock_frequency
+# COMMAND: report_timing "/cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1/wb_bram_timing.rep" -summary -num_paths 10 -append
+report_timing "/cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1/wb_bram_timing.rep" -summary -num_paths 10 -append
+# COMMAND: report_timing "/cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1/wb_bram_timing.rep" -num_paths 1 -show_nets -append
+report_timing "/cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1_impl_1/wb_bram_timing.rep" -num_paths 1 -show_nets -append
+# COMMAND: save_project
+# Info: [9565]: Saved implementation project_1_impl_1 in project /cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1.psp.
+save_project
+# COMMAND: close_project -discard
+# Info: [9530]: Closed project: /cal/homes/gfreitas/SE204/Repository/Nouveau dossier/project_1.psp.
+close_project -discard
+# COMMAND: exit
+exit

@@ -1,0 +1,51 @@
+# Info: [9569]: Logging project transcript to file /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE/precision.log
+# Info: [9569]: Logging suppressed messages transcript to file /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE/precision.log.suppressed
+# Info: [9552]: Activated implementation MCE in project /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE.psp.
+# Info: [15300]: Setting up the design to use synthesis library "cycloneii.syn"
+# Info: [579]: The global max fanout is currently set to 1000 for Altera - Cyclone II.
+# Info: [15326]: Setting Part to: "EP2C35F672C".
+# Info: [15327]: Setting Process to: "8".
+# Info: [3022]: Reading file: /comelec/softs/opt/mentor/precision/current/Mgc_home/pkgs/psr/techlibs/cycloneii.syn.
+# Info: [638]: Loading library initialization file /comelec/softs/opt/mentor/precision/current/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [623]: Vendor library directory /comelec/softs/opt/altera/altera13.0sp1/quartus/eda/synthesis was not found. Vendor library directory /comelec/softs/opt/altera/altera13.0sp1/quartus/eda/sim_lib contains simulation RTL constructs that cannot be processed by Precision. Reading the pre-compiled version
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2017a.11
+# Info: [42003]: Starting analysis of files in library "work"
+# Info: [41002]: Analyzing input file "/cal/homes/gfreitas/SE204/Repository/median/synthese/../src/comparaison.sv" ...
+# Info: [661]: Current working directory: /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2017a.11
+# Info: [40000]: Last compiled on Sep 15 2017 12:39:55
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2017a.11
+# Info: [40000]: Last compiled on Sep 15 2017 06:47:50
+# Info: [44512]: Initializing...
+# Info: [44522]: Root Module MCE: Pre-processing...
+# Info: [44523]: Root Module MCE: Compiling...
+# Info: [44842]: Compilation successfully completed.
+# Info: [44856]: Total lines of RTL compiled: 10.
+# Info: [44835]: Total CPU time for compilation: 0.0 secs.
+# Info: [44513]: Overall running time for compilation: 1.0 secs.
+# Info: [661]: Current working directory: /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE.
+# Info: [15332]: Doing rtl optimizations.
+# Info: [664]: Finished compiling design.
+# Info: [661]: Current working directory: /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE.
+# Info: [15002]: Optimizing design view:.work.MCE.INTERFACE
+# Info: [3027]: Writing file: /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE/MCE.edf.
+# Info: Info, Writing xrf file '/cal/homes/gfreitas/SE204/Repository/median/synthese/MCE/MCE.xrf'
+# Info: [3027]: Writing file: /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE/MCE.xrf.
+# Info: [3027]: Writing file: /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE/MCE.v.
+# Info: [3027]: Writing file: /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE/MCE.xrf.
+# Info: [3027]: Writing file: /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE/MCE.vqm.
+# Info: [3027]: Writing file: /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE/MCE.xrf.
+# Info: -- Writing file /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE/MCE.tcl
+# Info: exq_pr_compile_project gen_vcf MCE 1
+# Info: [664]: Finished synthesizing design.
+# Info: [11019]: Total CPU time for synthesis: 0.0 s secs.
+# Info: [11020]: Overall running time for synthesis: 1.0 s secs.
+# Info: [9565]: Saved implementation MCE in project /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE.psp.
+# Info: [9565]: Saved implementation MCE in project /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE.psp.
+dofile synthesis.tcl
+# COMMAND: report_area /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE/MCE_area.rep -cell_usage
+report_area /cal/homes/gfreitas/SE204/Repository/median/synthese/MCE/MCE_area.rep -cell_usage
+# COMMAND: exit -force
+# Warning: [9526]: Discarded unsaved work in implementation MCE.

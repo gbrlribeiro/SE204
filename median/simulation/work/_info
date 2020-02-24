@@ -1,0 +1,222 @@
+m255
+K4
+z2
+!s11f vlog 2019.3 2019.07, Jul 24 2019
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/cal/homes/gfreitas/SE204/Repository/median/simulation
+T_opt
+!s110 1575756252
+VHVR^]l8i]_]hB42LD5`iM2
+04 6 4 work MED_tb fast 0
+=1-000ae431a4f1-5dec21dc-25305-46a4
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0 Stats "none"
+n@_opt
+Z3 OL;O;2019.3;69
+R0
+T_opt1
+!s110 1575756364
+V0NIdommIR=l3QH`SPndOK2
+04 9 4 work MEDIAN_tb fast 0
+=1-000ae431a4f1-5dec224b-d6faa-46de
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1575756544
+ViQmnS[EBjXTJ_eBzYj@5G3
+04 15 4 work MEDIAN_IMAGE_tb fast 0
+=1-000ae431a4f1-5dec22fe-e8a5c-473f
+R1
+R2
+n@_opt2
+R3
+vMCE
+Z4 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1575744438
+!i10b 1
+!s100 >c<e?h[^XI_zXk=64fOm61
+!s11b aQUB=3IK5]YQ9bnQJ734H0
+IR5zG[bSEVBi=lnc2<d<bS2
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1575511095
+8/cal/homes/gfreitas/SE204/Repository/median/src/mce.sv
+F/cal/homes/gfreitas/SE204/Repository/median/src/mce.sv
+!i122 -1
+L0 1
+Z6 OL;L;2019.3;69
+r1
+!s85 0
+31
+!s108 1575744438.000000
+!s107 /cal/homes/gfreitas/SE204/Repository/median/src/mce.sv|
+!s90 +acc|/cal/homes/gfreitas/SE204/Repository/median/src/mce.sv|
+!i113 0
+Z7 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 tCvgOpt 0
+n@m@c@e
+vMCE_tb
+R4
+!s110 1575755951
+!i10b 1
+!s100 [X>BXC8A6<zWW3[?35dS22
+!s11b ieVU`ZlB42FYa]Ik=bQ^93
+INe[b4XTUMFT7kgF7:U>Z^0
+R5
+S1
+R0
+w1575755858
+8/cal/homes/gfreitas/SE204/Repository/median/src/mce-tb.sv
+F/cal/homes/gfreitas/SE204/Repository/median/src/mce-tb.sv
+!i122 -1
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1575755950.000000
+!s107 /cal/homes/gfreitas/SE204/Repository/median/src/mce-tb.sv|
+!s90 +acc|/cal/homes/gfreitas/SE204/Repository/median/src/mce-tb.sv|
+!i113 0
+R7
+R8
+n@m@c@e_tb
+vMED
+R4
+!s110 1575744441
+!i10b 1
+!s100 i^>TgGgfdO8gCZIH16H[U0
+!s11b Ai8f6z[gX135>lJL0GkbV2
+IPb_1kYGS7DA4EA0i@mAgY0
+R5
+S1
+R0
+w1575584917
+8/cal/homes/gfreitas/SE204/Repository/median/src/med.sv
+F/cal/homes/gfreitas/SE204/Repository/median/src/med.sv
+!i122 -1
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1575744441.000000
+!s107 /cal/homes/gfreitas/SE204/Repository/median/src/med.sv|
+!s90 +acc|/cal/homes/gfreitas/SE204/Repository/median/src/med.sv|
+!i113 0
+R7
+R8
+n@m@e@d
+vMED_tb
+R4
+!s110 1575756156
+!i10b 1
+!s100 ViN?a3`CInYIiZAjmB6AS0
+!s11b _nZ7oMA1DBH]obeS;ddij3
+Id_SII1k=WTMUhUkTmS5VR0
+R5
+S1
+R0
+w1575755922
+8/cal/homes/gfreitas/SE204/Repository/median/src/med-tb.sv
+F/cal/homes/gfreitas/SE204/Repository/median/src/med-tb.sv
+!i122 -1
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1575756156.000000
+!s107 /cal/homes/gfreitas/SE204/Repository/median/src/med-tb.sv|
+!s90 +acc|/cal/homes/gfreitas/SE204/Repository/median/src/med-tb.sv|
+!i113 0
+R7
+R8
+n@m@e@d_tb
+vMEDIAN
+R4
+!s110 1575744444
+!i10b 1
+!s100 @:mUmca]Y_9MlADEG8>zG0
+!s11b CMk0KnE]_Sk1]_6V1[GzJ3
+IjOD8fCnP2FRFO9Xn0=z_72
+R5
+S1
+R0
+w1575739990
+8/cal/homes/gfreitas/SE204/Repository/median/src/median.sv
+F/cal/homes/gfreitas/SE204/Repository/median/src/median.sv
+!i122 -1
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1575744444.000000
+!s107 /cal/homes/gfreitas/SE204/Repository/median/src/median.sv|
+!s90 +acc|/cal/homes/gfreitas/SE204/Repository/median/src/median.sv|
+!i113 0
+R7
+R8
+n@m@e@d@i@a@n
+vMEDIAN_IMAGE_tb
+R4
+!s110 1575742673
+!i10b 1
+!s100 Gm6Q5GW87<J6J8Oee14Rj3
+!s11b 4DmYI<MXia_[<zofO2<LD0
+IaQLTin5T4J=c:^@<Ph2?i1
+R5
+S1
+R0
+w1575742660
+8/cal/homes/gfreitas/SE204/Repository/median/simulation/median-image-tb.sv
+F/cal/homes/gfreitas/SE204/Repository/median/simulation/median-image-tb.sv
+!i122 -1
+L0 8
+R6
+r1
+!s85 0
+31
+!s108 1575742672.000000
+!s107 /cal/homes/gfreitas/SE204/Repository/median/simulation/median-image-tb.sv|
+!s90 +acc|/cal/homes/gfreitas/SE204/Repository/median/simulation/median-image-tb.sv|
+!i113 0
+R7
+R8
+n@m@e@d@i@a@n_@i@m@a@g@e_tb
+vMEDIAN_tb
+R4
+!s110 1575730679
+!i10b 1
+!s100 a=d]RS7M:X6bJ22Z=YA3W1
+!s11b XWEGFlL4KA8D_jR[iIcJd0
+IScM8l@Fike`eD2@:=SKk91
+R5
+S1
+R0
+w1575730666
+8/cal/homes/gfreitas/SE204/Repository/median/simulation/median-tb.sv
+F/cal/homes/gfreitas/SE204/Repository/median/simulation/median-tb.sv
+!i122 -1
+L0 9
+R6
+r1
+!s85 0
+31
+!s108 1575730679.000000
+!s107 /cal/homes/gfreitas/SE204/Repository/median/simulation/median-tb.sv|
+!s90 +acc|/cal/homes/gfreitas/SE204/Repository/median/simulation/median-tb.sv|
+!i113 0
+R7
+R8
+n@m@e@d@i@a@n_tb
